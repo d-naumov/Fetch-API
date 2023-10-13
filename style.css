@@ -1,0 +1,16 @@
+.merc {
+    width: 500px;
+}
+/* Пример стиля для мобильных устройств */
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Пример стиля для планшетов и десктопов */
+  @media (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+  }
